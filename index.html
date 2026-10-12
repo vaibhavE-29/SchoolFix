@@ -16,11 +16,179 @@ label{display:block;font-size:13px;font-weight:800;margin:13px 0 6px}input,selec
 .sf-hero{position:relative;overflow:hidden;border-radius:22px;padding:27px 30px;margin-bottom:18px;color:#fff;background:linear-gradient(135deg,#0b3d75,#167be8 55%,#5a67f2);box-shadow:0 16px 35px #0b3d7528}.sf-hero:after{content:"🏫  ✨  💡";position:absolute;right:28px;bottom:16px;font-size:38px;opacity:.75}.sf-hero h2{font-size:31px;margin:0 0 7px;letter-spacing:-.7px}.sf-hero p{margin:0;opacity:.92;line-height:1.5}.sf-slogan{display:inline-block;margin-top:15px;padding:8px 13px;border-radius:999px;background:#ffffff1c;border:1px solid #ffffff38;font-weight:800}.sf-kpi{position:relative;overflow:hidden}.sf-kpi:before{content:"";position:absolute;right:-15px;top:-20px;width:75px;height:75px;border-radius:50%;background:#eaf3ff}.sf-kpi .emoji{font-size:25px;position:relative}.sf-kpi .kpi-note{font-size:11px;color:#6b7280}.sf-blue{border-top:4px solid #3b82f6}.sf-orange{border-top:4px solid #f59e0b}.sf-red{border-top:4px solid #ef4444}.sf-green{border-top:4px solid #22c55e}.quick-report{display:flex;align-items:center;justify-content:space-between;gap:15px;background:linear-gradient(135deg,#eef8ff,#f5f3ff);border:1px solid #d9e7ff;border-radius:18px;padding:18px 20px}.quick-report h3{margin:0 0 4px}.quick-report p{margin:0;color:#6b7280;font-size:13px}.big-report{padding:13px 18px!important;background:#fbfdff}.mini-title{font-size:12px;color:#6b7280;text-transform:uppercase;letter-spacing:.08em;font-weight:900}.pipeline{display:grid;grid-template-columns:repeat(6,1fr);gap:5px;margin-top:12px}.pipe{font-size:10px;text-align:center;color:#6b7280}.pipe b{display:grid;place-items:center;width:30px;height:30px;margin:0 auto 5px;border-radius:50%;background:#edf5ff;color:#2563eb}.activity{display:flex;gap:9px;align-items:flex-start;padding:9px 0;border-bottom:1px solid #edf0f5;font-size:12px}.activity:last-child{border-bottom:0}.workflow{background:linear-gradient(160deg,#f4fbff,#f6f3ff)}.workflow-step{display:flex;gap:10px;align-items:center;margin:11px 0;font-size:12px}.workflow-step b{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:#e7f3ff;color:#1d4ed8}.category-row{display:flex;align-items:center;gap:9px;margin:9px 0;font-size:12px}.category-row span{flex:1}.category-row i{height:7px;background:#dbeafe;border-radius:99px;flex:1;overflow:hidden}.category-row i em{display:block;height:100%;background:#3b82f6;border-radius:99px}
 @media(max-width:850px){.side{width:68px}.side .brand span,.nav span{display:none}.nav button{text-align:center}.main{margin-left:68px}.grid{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}.loginbox{grid-template-columns:1fr}.hero{padding:30px}.hero h1{margin:35px 0 15px}.filters{grid-template-columns:1fr 1fr}}
 @media(max-width:550px){.grid,.filters{grid-template-columns:1fr}.main{padding:16px}}
+
+/* Professional SchoolFix landing page */
+:root{color-scheme:light}
+body{background:#f6f8fc;color:#172033}
+.homepage{min-height:100vh;background:linear-gradient(180deg,#f8fbff 0%,#fff 70%);color:#172033}
+.home-nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:0 clamp(18px,5vw,76px);border-bottom:1px solid #e7edf6;background:#ffffffdc;backdrop-filter:blur(14px);position:sticky;top:0;z-index:5}
+.home-logo{display:flex;align-items:center;gap:10px;font-size:23px;font-weight:900;letter-spacing:-.7px;color:#10264a;text-decoration:none;white-space:nowrap}
+.home-logo-mark{display:grid;place-items:center;width:39px;height:39px;border-radius:13px;color:white;background:linear-gradient(135deg,#176fe8,#6556e8);box-shadow:0 7px 16px #316fe82e}
+.home-links{display:flex;align-items:center;gap:25px}
+.home-links a{color:#526079;text-decoration:none;font-size:14px;font-weight:700}
+.home-links a:hover{color:#2563eb}
+.home-actions{display:flex;align-items:center;gap:10px}
+.theme-btn{border:1px solid #dbe3ef;border-radius:12px;padding:10px 12px;background:#fff;color:#24334e;font-weight:800;min-width:44px}
+.home-signin{background:#245de8;color:white;border-radius:12px;padding:12px 18px;font-weight:800;box-shadow:0 8px 18px #245de82b}
+.home-signin:hover{background:#1749c9;transform:translateY(-1px)}
+.home-hero{max-width:1200px;margin:0 auto;padding:76px 26px 64px;display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:48px}
+.home-eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid #dbeafe;background:#eff6ff;color:#2455b8;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:900;letter-spacing:.04em}
+.home-hero h1{font-size:clamp(42px,5.3vw,68px);line-height:1.03;letter-spacing:-2.8px;margin:22px 0 20px;color:#12213b}
+.home-hero h1 span{color:#3568e8}
+.home-hero p{font-size:17px;line-height:1.8;color:#61708a;max-width:590px;margin:0}
+.home-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.home-cta button{padding:14px 19px;border-radius:12px;font-weight:900}
+.home-primary{background:#245de8;color:#fff;box-shadow:0 10px 22px #245de82e}
+.home-secondary{background:#fff;border:1px solid #dbe3ef;color:#233653}
+.home-trust{display:flex;gap:20px;flex-wrap:wrap;margin-top:28px;color:#66748a;font-size:12px;font-weight:700}
+.home-trust span{display:flex;gap:7px;align-items:center}
+.preview-wrap{position:relative;padding:15px;border-radius:26px;background:linear-gradient(145deg,#dceaff,#ece8ff);box-shadow:0 28px 70px #2b4f8b20}
+.preview-card{border:1px solid #e4eaf4;border-radius:19px;background:#fff;padding:20px;box-shadow:0 12px 30px #1720330c}
+.preview-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:18px}
+.preview-top strong{font-size:15px;color:#1b2a44}
+.preview-pill{background:#eafaf1;color:#16804a;padding:6px 9px;border-radius:999px;font-size:10px;font-weight:900}
+.preview-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.preview-stat{background:#f7f9fd;border:1px solid #edf1f7;border-radius:12px;padding:12px}
+.preview-stat small{display:block;color:#7a879b;font-size:10px}
+.preview-stat b{display:block;font-size:23px;margin-top:7px;color:#182a48}
+.preview-report{display:flex;align-items:center;gap:11px;padding:13px 0;border-bottom:1px solid #edf1f7}
+.preview-report:last-child{border-bottom:0}
+.preview-icon{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:#eef4ff;font-size:18px}
+.preview-report b{display:block;font-size:12px;color:#23334d}
+.preview-report small{display:block;margin-top:4px;color:#8490a2;font-size:10px}
+.preview-status{margin-left:auto;color:#1c8b5a;background:#e8f8ef;border-radius:8px;padding:6px 8px;font-size:10px;font-weight:900;white-space:nowrap}
+.preview-note{position:absolute;right:-13px;bottom:30px;background:#fff;border:1px solid #e4eaf4;border-radius:14px;padding:13px 15px;box-shadow:0 12px 30px #17203318;font-size:12px;font-weight:800;color:#273a59}
+.home-section{padding:68px 24px;scroll-margin-top:90px}
+.home-section.alt{background:#f3f6fc}
+.home-section-inner{max-width:1120px;margin:0 auto}
+.home-section-heading{text-align:center;max-width:700px;margin:0 auto 34px}
+.home-section-heading .kicker{color:#3265df;font-size:12px;font-weight:900;letter-spacing:.13em;text-transform:uppercase}
+.home-section-heading h2{font-size:clamp(29px,3.3vw,42px);letter-spacing:-1.3px;line-height:1.15;margin:12px 0;color:#15243d}
+.home-section-heading p{line-height:1.7;color:#68768b;margin:0}
+.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.feature-card{background:#fff;border:1px solid #e5eaf3;border-radius:18px;padding:23px;box-shadow:0 8px 25px #17203307;transition:transform .2s,box-shadow .2s}
+.feature-card:hover{transform:translateY(-4px);box-shadow:0 16px 32px #17203310}
+.feature-icon{width:47px;height:47px;display:grid;place-items:center;border-radius:14px;background:#edf4ff;font-size:23px;margin-bottom:17px}
+.feature-card h3{font-size:17px;margin:0 0 9px;color:#1a2b47}
+.feature-card p{font-size:13px;line-height:1.75;color:#6b7890;margin:0}
+.steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.step-card{padding:22px;border-radius:17px;border:1px solid #e3eaf5;background:#fff}
+.step-num{display:grid;place-items:center;width:39px;height:39px;border-radius:13px;background:#eaf1ff;color:#245de8;font-weight:900;margin-bottom:15px}
+.step-card h3{margin:0 0 8px;color:#1a2b47}
+.step-card p{margin:0;color:#6b7890;font-size:13px;line-height:1.7}
+.home-bottom-cta{max-width:1120px;margin:0 auto;padding:34px;border-radius:23px;background:linear-gradient(120deg,#102f62,#245de8 65%,#635be7);color:#fff;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.home-bottom-cta h2{font-size:clamp(24px,3vw,35px);letter-spacing:-.8px;margin:0 0 8px}
+.home-bottom-cta p{margin:0;color:#e1eaff;line-height:1.6}
+.home-bottom-cta button{background:#fff;color:#214fc2;padding:14px 18px;border-radius:12px;font-weight:900;white-space:nowrap}
+.home-footer{padding:28px 24px;text-align:center;color:#7a879a;font-size:12px;border-top:1px solid #e7edf6}
+.login-home-actions{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:15px}
+.login-home-actions button{font-size:12px}
+body.dark-mode,body.dark-mode .homepage{background:#0b1220;color:#e6edf8}
+body.dark-mode .homepage{background:linear-gradient(180deg,#0d1729,#101827 70%)}
+body.dark-mode .home-nav{background:#0c1628e8;border-color:#26364d}
+body.dark-mode .home-logo,body.dark-mode .home-hero h1,body.dark-mode .home-section-heading h2,body.dark-mode .feature-card h3,body.dark-mode .step-card h3{color:#eef4ff}
+body.dark-mode .home-links a,body.dark-mode .home-hero p,body.dark-mode .home-section-heading p,body.dark-mode .feature-card p,body.dark-mode .step-card p{color:#a8b5ca}
+body.dark-mode .home-eyebrow{background:#152b4c;border-color:#254879;color:#a9c9ff}
+body.dark-mode .home-secondary,body.dark-mode .theme-btn{background:#172338;border-color:#34445d;color:#e8eef9}
+body.dark-mode .home-section.alt{background:#0e192b}
+body.dark-mode .feature-card,body.dark-mode .step-card,body.dark-mode .preview-card,body.dark-mode .preview-note{background:#152136;border-color:#2b3a51;color:#e7eef9}
+body.dark-mode .preview-top strong,body.dark-mode .preview-stat b,body.dark-mode .preview-report b{color:#e7eef9}
+body.dark-mode .preview-stat{background:#101b2d;border-color:#28364c}
+body.dark-mode .preview-stat small,body.dark-mode .preview-report small{color:#9aa9bf}
+body.dark-mode .home-footer{border-color:#26364d;color:#98a7bd}
+body.dark-mode .login{background:linear-gradient(135deg,#0b1220,#121d30)}
+body.dark-mode .loginbox,body.dark-mode .form{background:#152136;color:#e7eef9}
+body.dark-mode .form .muted{color:#a8b5ca}
+body.dark-mode .roles button,body.dark-mode .secondary{background:#1b2a42;color:#dbe7fb;border-color:#34445d}
+body.dark-mode input,body.dark-mode select,body.dark-mode textarea{background:#101b2d;color:#e7eef9;border-color:#34445d}
+body.dark-mode .note{background:#101b2d;color:#a8b5ca}
+body.dark-mode .main{color:#e7eef9}
+body.dark-mode .stat,body.dark-mode .card,body.dark-mode .report,body.dark-mode .user,body.dark-mode .modalbox{background:#152136;color:#e7eef9;border-color:#2b3a51}
+body.dark-mode .report{background:#111d30}
+body.dark-mode .muted,body.dark-mode .meta,body.dark-mode .stat small{color:#a8b5ca}
+body.dark-mode .quick-report,body.dark-mode .workflow{background:#14243a;border-color:#2b4264}
+body.dark-mode .quick-report p{color:#a8b5ca}
+body.dark-mode .sf-kpi:before{background:#223754}
+body.dark-mode .ai{background:linear-gradient(135deg,#202348,#24203b)}
+body.dark-mode .ai h3{color:#c9c4ff}
+body.dark-mode .insight,body.dark-mode .activity{border-color:#2b3a51}
+body.dark-mode .progress{background:#29374c}
+@media(max-width:850px){.home-nav{padding:0 18px}.home-links{display:none}.home-hero{grid-template-columns:1fr;padding-top:52px;gap:36px}.preview-wrap{max-width:590px;width:100%;margin:auto}.feature-grid{grid-template-columns:repeat(2,1fr)}.steps-grid{grid-template-columns:1fr}.home-bottom-cta{margin:0 18px;align-items:flex-start;flex-direction:column}}
+@media(max-width:550px){.home-nav{height:68px}.home-logo{font-size:19px}.home-logo-mark{width:34px;height:34px}.home-actions{gap:6px}.theme-btn{padding:9px}.home-signin{padding:10px 12px}.home-hero{padding:43px 20px}.home-hero h1{letter-spacing:-1.8px}.preview-note{right:3px;bottom:8px}.preview-card{padding:14px}.preview-stat{padding:9px}.preview-stat b{font-size:19px}.feature-grid{grid-template-columns:1fr}.home-section{padding:52px 18px}.home-bottom-cta{padding:25px}.loginbox{border-radius:18px}.hero h1{font-size:38px}}
+
 </style></head><body>
 
-<div id="login" class="login"><div class="loginbox">
+
+<div id="homepage" class="homepage">
+  <header class="home-nav">
+    <a class="home-logo" href="#home" aria-label="SchoolFix home"><span class="home-logo-mark">◈</span> SchoolFix</a>
+    <nav class="home-links" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#features">Features</a><a href="#how-it-works">How it works</a>
+    </nav>
+    <div class="home-actions">
+      <button class="theme-btn" id="themeBtn" onclick="toggleTheme()" aria-label="Toggle dark or light mode" title="Toggle dark/light mode">🌙</button>
+      <button class="home-signin" onclick="showLogin()">Sign in <span aria-hidden="true">→</span></button>
+    </div>
+  </header>
+  <section class="home-hero" id="home">
+    <div>
+      <span class="home-eyebrow">🏫 A SMARTER WAY TO IMPROVE YOUR SCHOOL</span>
+      <h1>Make your school better. <span>One report at a time.</span></h1>
+      <p>SchoolFix brings students and school administration together to report problems, track progress, and turn everyday concerns into meaningful improvements.</p>
+      <div class="home-cta">
+        <button class="home-primary" onclick="showLogin()">Get started <span aria-hidden="true">→</span></button>
+        <button class="home-secondary" onclick="document.getElementById('features').scrollIntoView({behavior:'smooth'})">Explore features ↓</button>
+      </div>
+      <div class="home-trust"><span>✓ Student-friendly reporting</span><span>✓ Admin issue tracking</span><span>✓ Shared cloud workflow</span></div>
+    </div>
+    <div class="preview-wrap" aria-label="Illustrative SchoolFix dashboard preview">
+      <div class="preview-card">
+        <div class="preview-top"><strong>📊 School overview</strong><span class="preview-pill">● TRACKING ACTIVE</span></div>
+        <div class="preview-stats">
+          <div class="preview-stat"><small>Total reports</small><b>24</b></div>
+          <div class="preview-stat"><small>In progress</small><b>08</b></div>
+          <div class="preview-stat"><small>Resolved</small><b>16</b></div>
+        </div>
+        <div style="margin-top:19px;font-size:11px;color:#8290a5;font-weight:900;letter-spacing:.08em">RECENT UPDATES</div>
+        <div class="preview-report"><div class="preview-icon">💧</div><div><b>Leaking water tap</b><small>Ground floor · Water</small></div><span class="preview-status">Resolved</span></div>
+        <div class="preview-report"><div class="preview-icon">💡</div><div><b>Classroom lights</b><small>Block A · Electrical</small></div><span class="preview-status" style="background:#fff4df;color:#a76500">In progress</span></div>
+        <div class="preview-report"><div class="preview-icon">🪑</div><div><b>Broken classroom chair</b><small>Room 10-A · Furniture</small><span></span></div></div>
+      </div>
+      <div class="preview-note">✨ Every voice can make a difference</div>
+    </div>
+  </section>
+  <section class="home-section alt" id="features">
+    <div class="home-section-inner">
+      <div class="home-section-heading"><div class="kicker">Everything in one place</div><h2>Tools for a better school experience</h2><p>From reporting an issue to understanding recurring problems, SchoolFix helps make school improvement more organized and transparent.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">📣</div><h3>Easy issue reporting</h3><p>Students can submit school concerns with a category, location, description, and priority.</p></article>
+        <article class="feature-card"><div class="feature-icon">🔎</div><h3>Report tracking</h3><p>Students can revisit their reports and check the latest status as issues move forward.</p></article>
+        <article class="feature-card"><div class="feature-icon">🛡️</div><h3>Administration dashboard</h3><p>Authorized administrators can review reports, assign teams, and update issue status.</p></article>
+        <article class="feature-card"><div class="feature-icon">📈</div><h3>School analytics</h3><p>View report categories, resolution progress, and a simple overview of school concerns.</p></article>
+        <article class="feature-card"><div class="feature-icon">🧠</div><h3>Pattern insights</h3><p>Explore prototype priority suggestions and recurring issue patterns to guide attention.</p></article>
+        <article class="feature-card"><div class="feature-icon">☁️</div><h3>Firebase cloud support</h3><p>Configured accounts can use Firebase Authentication and Firestore to share report data.</p></article>
+      </div>
+    </div>
+  </section>
+  <section class="home-section" id="how-it-works">
+    <div class="home-section-inner">
+      <div class="home-section-heading"><div class="kicker">Simple by design</div><h2>From concern to action in three steps</h2><p>A clear workflow helps everyone understand what needs attention and what happens next.</p></div>
+      <div class="steps-grid">
+        <article class="step-card"><div class="step-num">01</div><h3>Spot it and report it</h3><p>A student describes the issue and adds its location so the right people can understand it.</p></article>
+        <article class="step-card"><div class="step-num">02</div><h3>Review and assign</h3><p>Administration checks reports, sets priorities, and assigns the appropriate team.</p></article>
+        <article class="step-card"><div class="step-num">03</div><h3>Track the improvement</h3><p>Statuses are updated as the school works toward resolving and verifying the issue.</p></article>
+      </div>
+    </div>
+  </section>
+  <section class="home-section alt">
+    <div class="home-bottom-cta"><div><h2>Have an idea to improve your school?</h2><p>Sign in to report an issue or help your school turn feedback into action.</p></div><button onclick="showLogin()">Enter SchoolFix →</button></div>
+  </section>
+  <footer class="home-footer">© 2026 SchoolFix · See it. Report it. Fix it. · Built for a better school community.</footer>
+</div>
+
+<div id="login" class="login hidden"><div class="loginbox">
 <div class="hero"><div class="brand">◈ SchoolFix</div><h1>Notice.<br>Understand.<br>Act.</h1><p>A multi-user school improvement platform where students report problems and administration turns them into measurable action.</p></div>
-<div class="form"><h2>Sign in</h2><p class="muted">Firebase cloud-ready prototype</p>
+<div class="form"><div class="login-home-actions"><button class="secondary" onclick="showHome()">← Homepage</button><button class="theme-btn" onclick="toggleTheme()" aria-label="Toggle dark or light mode">🌙 Theme</button></div><h2>Sign in</h2><p class="muted">Firebase cloud-ready prototype</p>
 <div class="roles"><button id="rs" class="active" onclick="choose('student')">🎓 Student</button><button id="ra" onclick="choose('admin')">🛡️ Administration</button></div>
 <label>Email</label><input id="email" type="email" placeholder="student@school.com"><label>Password</label><input id="pass" type="password" placeholder="Password">
 <button class="primary" style="width:100%;margin-top:16px" onclick="signIn()">Sign in</button>
@@ -70,6 +238,21 @@ try{
 
 let role="student",page="dashboard",currentUser=null;
 const $=id=>document.getElementById(id);
+function showLogin(){ $("homepage").classList.add("hidden"); $("login").classList.remove("hidden"); $("app").classList.add("hidden"); window.scrollTo({top:0,behavior:"smooth"}); }
+function showHome(){ $("login").classList.add("hidden"); $("app").classList.add("hidden"); $("homepage").classList.remove("hidden"); window.scrollTo({top:0,behavior:"smooth"}); }
+function toggleTheme(){
+  const dark=document.body.classList.toggle("dark-mode");
+  localStorage.setItem("schoolfix_theme",dark?"dark":"light");
+  document.querySelectorAll("#themeBtn").forEach(b=>b.textContent=dark?"☀️":"🌙");
+  document.querySelectorAll(".login-home-actions .theme-btn").forEach(b=>b.textContent=dark?"☀️ Light":"🌙 Theme");
+}
+function applySavedTheme(){
+  const dark=localStorage.getItem("schoolfix_theme")==="dark";
+  document.body.classList.toggle("dark-mode",dark);
+  document.querySelectorAll("#themeBtn").forEach(b=>b.textContent=dark?"☀️":"🌙");
+  document.querySelectorAll(".login-home-actions .theme-btn").forEach(b=>b.textContent=dark?"☀️ Light":"🌙 Theme");
+}
+
 const loginBox=$("login"), appBox=$("app"), emailEl=$("email"), passEl=$("pass"), rsEl=$("rs"), raEl=$("ra"), whoEl=$("who"), avatarEl=$("avatar"), modeEl=$("mode"), navEl=$("nav"), contentEl=$("content"), modalEl=$("modal"), modalboxEl=$("modalbox"), toastEl=$("toast");
 const KEY="schoolfix_demo";
 let reports=JSON.parse(localStorage.getItem(KEY)||"null")||[
@@ -157,7 +340,7 @@ function adminDash(){let s=stats(),open=reports.filter(r=>!["Resolved","Verified
 <div class="sf-hero"><h2>👋 Real Problems. Real People. <span style="color:#fde047">Real Solutions.</span></h2><p>SchoolFix connects students and administration to turn everyday problems into visible action.</p><span class="sf-slogan">👑 Better Management = A Stronger School!</span></div>
 <div class="grid">
 <div class="stat sf-kpi sf-blue"><div class="emoji">📋</div><small>Total Reports</small><div class="num">${s.total}</div><div class="kpi-note">All reported issues</div></div>
-<div class="stat sf-kpi sf-orange"><div class="emoji">⏰</div><small>Needs Action</small><div class="num">${s.pending}</div><div class="kpi-note">Open or assigned</div></div>
+<div class="stat sf-kpi sf-orange"><div class="emoji">⏰</div><small>Needs Action</small><div class="num">${s.pending}</iv><div class="kpi-note">Open or assigned</div></div>
 <div class="stat sf-kpi sf-red"><div class="emoji">🚨</div><small>High Priority</small><div class="num">${s.high}</div><div class="kpi-note">Requires attention</div></div>
 <div class="stat sf-kpi sf-green"><div class="emoji">✅</div><small>Resolved</small><div class="num">${s.resolved}</div><div class="kpi-note">Closed / verified</div></div>
 </div>
@@ -191,5 +374,6 @@ function listenReports(){
 }
 function toast(t){toastEl.textContent=t;toastEl.classList.remove("hidden");clearTimeout(window.tt);window.tt=setTimeout(()=>toastEl.classList.add("hidden"),2800)}
 function esc(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
-Object.assign(window,{choose,signIn,logout,go,submitReport,submitVoice,manage,updateReport,filterReports});
+Object.assign(window,{choose,signIn,logout,go,submitReport,submitVoice,manage,updateReport,filterReports,showLogin,showHome,toggleTheme});
+applySavedTheme();
 </script></body></html>
